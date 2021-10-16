@@ -17,7 +17,7 @@ class Road:
         print((self._width * self._length * asphalt_meter_weight * thickness) / 1000, 'тонн')
 
 
-my_road = Road(7500, 10)
+my_road = Road(5000, 20)
 my_road.road_weight(25, 5)
 
 

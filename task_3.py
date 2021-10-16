@@ -27,5 +27,7 @@ class Position(Worker):
 
 
 my_position = Position("Ilya", "Ivanov", "tester", 50000, 20000)
+print(my_position.name)
+print(my_position.position)
 my_position.get_full_name()
 my_position.get_total_income()

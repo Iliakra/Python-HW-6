@@ -18,9 +18,10 @@ class TrafficLight:
     def running(self):
         colors_order = list(self.__color.keys())
         if colors_order[0] == "Red" and colors_order[1] == "Yellow":
-            for key, value, in self.__color.items():
-                print(key)
-                time.sleep(value)
+            while True:
+                for key, value, in self.__color.items():
+                    print(key)
+                    time.sleep(value)
         else:
             print("The order of lights is not correct!")
             return
